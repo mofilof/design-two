@@ -1,0 +1,36 @@
+//@import "~bootstrap/scss/bootstrap"; Did only get errors on this...
+
+@import "partials/color";
+@import "partials/fonts";
+@import "partials/images";
+@import "partials/buttons";
+
+nav{ //Bakgrunnsfargen til menyen
+  background-color: $darkBlue; 
+}
+.navbar-light .navbar-brand{ //Fargen til brand/logo i menyen
+  color: $white;
+}
+.navbar-light .navbar-nav .nav-link { //Tekstfargen i menyen
+  color: $white;
+}
+
+.navbar-light .navbar-brand:hover{ //Hover brand/logo
+  color: $lightBlue;
+}
+.navbar-light .navbar-nav .nav-link:hover{ //Hover i menyen
+  color: $lightBlue;
+}
+
+.navbar-light .navbar-brand:active{ //Active brand/logo
+  text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link:active{ //Active i menyen
+  text-decoration: underline;
+}
+
+main{
+  margin: 20px 120px;
+}
+
+
