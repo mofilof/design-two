@@ -1,0 +1,31 @@
+//H font
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+$iceland: 'Iceland', cursive;
+
+//p text
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+$pt-sans: 'PT Sans', sans-serif;
+
+h1{
+  font-family: $iceland;
+  font-size: 2em;
+  padding: 0.8em 0;
+}
+
+h2{
+  font-family: $iceland;
+  font-size: 1.5em;
+  padding: 0.8em 0;
+}
+
+h3{
+  font-family: $iceland;
+  font-size: 1.2em;
+  padding: 0.8em 0;
+}
+
+p{
+  font-family: $pt-sans;
+  font-size: 0.8em;
+  padding: 0.8em 0;
+}

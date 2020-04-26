@@ -10,16 +10,20 @@ nav{ //Bakgrunnsfargen til menyen
 }
 .navbar-light .navbar-brand{ //Fargen til brand/logo i menyen
   color: $white;
+  font-family: $iceland;
 }
 .navbar-light .navbar-nav .nav-link { //Tekstfargen i menyen
   color: $white;
+  font-family: $iceland;
 }
 
 .navbar-light .navbar-brand:hover{ //Hover brand/logo
   color: $lightBlue;
+  font-family: $iceland;
 }
 .navbar-light .navbar-nav .nav-link:hover{ //Hover i menyen
   color: $lightBlue;
+  font-family: $iceland;
 }
 
 .navbar-light .navbar-brand:active{ //Active brand/logo
@@ -31,6 +35,10 @@ nav{ //Bakgrunnsfargen til menyen
 
 main{
   margin: 20px 120px;
+}
+
+.linetexts{
+  border: solid 2px $darkBlue;
 }
 
 

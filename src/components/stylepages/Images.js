@@ -27,8 +27,9 @@ function Images() {
               src={Hockey} alt="Hockey player." />
           </Carousel.Item>
         </Carousel>
-
+        <br></br>
         <h1>The winter sports club, style guide</h1>
+        <br></br>
         <div className="row">
           <div className="col-sm-5">
             <img className="d-block portrett"
